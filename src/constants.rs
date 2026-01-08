@@ -1,0 +1,9 @@
+const UPSCALING_CONST: usize = 2;
+pub const BUFFER_WIDTH: usize = 192 * UPSCALING_CONST;
+pub const BUFFER_HEIGHT: usize = 108 * UPSCALING_CONST;
+pub const WINDOW_WIDTH: usize = 192 * UPSCALING_CONST;
+pub const WINDOW_HEIGHT: usize = 108 * UPSCALING_CONST;
+pub const MAX_BOUNCES: u8 = 2;
+pub const MOVE_SPEED: f32 = 0.1;
+pub const MOUSE_SENSITIVITY: f32 = 0.5;
+pub const GAMMA: f32 = 2.2;
